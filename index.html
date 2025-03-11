@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Kjianlu</title>
+  </head>
+  <body>
+    <header class="bg-black">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand fw-semibold" href="#">
+            <span class="fs-1 text-primary">JK</span>amei
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars text-white"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav gap-3 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active fs-6" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6" href="#project">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6" href="#">Skills</a>
+              </li>
+            </ul>
+
+            <a
+              href="assets/Jianlu_CV.pdf"
+              class="btn Resume px-4"
+              target="_blank"
+              download
+            >
+              <i class="fa-regular fa-file-pdf text-danger"></i> Resume
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="home" class="bg-black py-5 mt-5 home section">
+      <div class="container">
+        <h1
+          class="text-white-50 fw-semibold text-center display-6 mb-3 Frontend"
+        >
+          Frontend Developer
+        </h1>
+        <div class="row pt-5 mx-auto">
+          <div class="col-md-7">
+            <div class="text-start p-3">
+              <h2 class="text-white fw-normal">
+                Hi, its me <br />
+                <span class="Jianlu fw-semibold ps-4 pt-4">Jianlu Kamei</span>
+              </h2>
+              <p class="text-light fw-normal fs-6 pt-4">
+                Passionate about technology and innovation, currently gaining
+                hands-on experience as an intern at Liangtuang.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-3">
+              <img
+                src="assets/image/hero-img.jpg"
+                alt="hero-img"
+                class="w-100 rounded-3"
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-black">
+      <section id="about" class="about-section py-5">
+        <div class="container">
+          <div class="text-center">
+            <span class="about fs-2"
+              >About <span class="text-primary">Me</span></span
+            >
+          </div>
+          <div class="row align-items-center g-0">
+            <div class="col-md-4 text-center">
+              <div class="">
+                <img
+                  src="assets/image/kamei.png"
+                  alt="Profile Picture"
+                  class="profile-img mb-3"
+                />
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="about-sectionp">
+                <h3 class="about-title fw-semibold mb-4">Frontend Developer</h3>
+                <p class="text-light fw-normal fs-6">
+                  Passionate about technology and innovation, currently gaining
+                  hands-on experience as an intern at Liamtra. Eager to explore
+                  new challenges in web development and software engineering,
+                  continuously improving my skills to create impactful digital
+                  solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="project" class="Projects-section bg-black py-5">
+        <div class="container">
+          <div class="text-center mb-4">
+            <span class="text-center fs-2 text-light project"
+              >My <span class="text-primary">Projects</span></span
+            >
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card bg-dark text-white custom-card">
+                <img src="assets/image/banner-imagebackground.png" class="card-img custom-img" alt="..." />
+                <div class="card-img-overlay d-flex flex-column justify-content-between">
+                  <h5 class="card-title mt-5 pt-5">Troovely</h5>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#troovelyModal">
+                    Know more
+                  </button>
+            
+                 
+                  <div class="modal fade" id="troovelyModal" tabindex="-1" aria-labelledby="troovelyLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title text-primary fw-semibold" id="troovelyLabel">Troovely</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-dark">
+                          <div>
+                            <span>Tech stack: HTML, CSS, JavaScript, Bootstrap-5</span>
+                          </div>
+                          <div>
+                            <span>About:</span>
+                            <ul>
+                              <li>Real estate page</li>
+                              <li>Easier to find for buyers</li>
+                              <li>Most trustworthy</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="modal-footer d-flex justify-content-evenly align-items-center">
+                          <a href="https://jianluliangtuang.github.io/troovely/" class="btn btn-primary">
+                            <i class="fa-solid fa-link"></i> Live link
+                          </a>
+                          <a href="https://github.com/jianluliangtuang/troovely" class="btn btn-primary">
+                            <i class="fa-brands fa-github icon text-light"></i> Git repo
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card bg-dark text-white custom-card">
+                <img src="assets/image/pastor.jpg.png" class="card-img custom-img" alt="..." />
+                <div class="card-img-overlay d-flex flex-column justify-content-between">
+                  <h5 class="card-title mt-5 pt-5">
+                    RCFD <br /><span class="small">Rongmei Christian Fellowship Delhi</span>
+                  </h5>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#rcfdModal">
+                    Know more
+                  </button>
+            
+  
+                  <div class="modal fade" id="rcfdModal" tabindex="-1" aria-labelledby="rcfdLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title text-primary fw-semibold" id="rcfdLabel">
+                            RCFD <span class="text-capitalize small text-dark">Rongmei Christian Fellowship Delhi</span>
+                          </h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-dark">
+                          <div>
+                            <span>Tech stack: HTML, CSS, JavaScript, Bootstrap-5</span>
+                          </div>
+                          <div>
+                            <span>About:</span>
+                            <ul>
+                              <li>Gather and praise God</li>
+                              <li>Gospel massage in rongmei dailect</li>
+                              <li>Build of Rongmei Christian fellowship in christ as one</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="modal-footer d-flex justify-content-evenly align-items-center">
+                          <a href="https://jianluliangtuang.github.io/rcfd/" class="btn btn-primary">
+                            <i class="fa-solid fa-link"></i> Live link
+                          </a>
+                          <a href="https://github.com/jianluliangtuang/rcfd" class="btn btn-primary">
+                            <i class="fa-brands fa-github icon text-light"></i> Git repo
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card bg-dark text-white custom-card">
+                <img
+                  src="assets/image/Screenshot 2025-03-11 145053.png"
+                  class="card-img custom-img"
+                  alt="..."
+                />
+                <div
+                  class="card-img-overlay d-flex flex-column justify-content-between"
+                >
+                  <h5 class="card-title mt-5 pt-5">Portfolio</h5>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioLabel">
+                    Know more
+                  </button>
+            
+  
+                  <div class="modal fade" id="portfolioLabel" tabindex="-1" aria-labelledby="portfolioLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title text-primary fw-semibold" id="portfolioLabel">
+                         My portfolio
+                          </h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-dark">
+                          <div>
+                            <span>Tech stack: HTML, CSS, JavaScript, Bootstrap-5</span>
+                          </div>
+                          <div>
+                            <span>About:</span>
+                            <ul>
+                              <li>I am jianlu kamei, a Passionate front-end Developer</li>
+                              <li>currently, working as intern in liangtuang company</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="modal-footer d-flex justify-content-evenly align-items-center">
+                          <a href="http://127.0.0.1:5500/index.html" class="btn btn-primary">
+                            <i class="fa-solid fa-link"></i> Live link
+                          </a>
+                          <a href="https://github.com/jianluliangtuang/troovely" class="btn btn-primary">
+                            <i class="fa-brands fa-github icon text-light"></i> Git repo
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-3 my-skill-section">
+        <div class="container">
+          <div class="text-center pb-5">
+            <span class="text-light skill text-center fs-2">
+              My <span class="text-primary">Skills</span>
+            </span>
+          </div>
+          <div class="d-flex flex-column gap-3 skill-div">
+            <div class="progress">
+              <span
+                class="text-dark fs-6 justify-content-center align-items-center pe-2 progress-title"
+                >HTML-5</span
+              >
+              <div
+                class="progress-bar progress-bar-striped bg-info"
+                role="progressbar"
+                style="width: 80%"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                80%
+              </div>
+            </div>
+            <div class="progress">
+              <span
+                class="text-dark fs-6 justify-content-center align-items-center pe-2 progress-title"
+                >Css-3</span
+              >
+              <div
+                class="progress-bar progress-bar-striped bg-success"
+                role="progressbar"
+                style="width: 85%"
+                aria-valuenow="85"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                85%
+              </div>
+            </div>
+            <div class="progress">
+              <span
+                class="text-dark fs-6 justify-content-center align-items-center pe-2 progress-title"
+                >Bootstrap-5</span
+              >
+              <div
+                class="progress-bar progress-bar-striped bg-primary"
+                role="progressbar"
+                style="width: 70%"
+                aria-valuenow="70"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                70%
+              </div>
+            </div>
+            <div class="progress">
+              <span
+                class="text-dark fs-6 justify-content-center align-items-center pe-2 progress-title"
+                >Javascript</span
+              >
+              <div
+                class="progress-bar progress-bar-striped bg-warning"
+                role="progressbar"
+                style="width: 40%"
+                aria-valuenow="40"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                40%
+              </div>
+            </div>
+          </div>
+          <!-- <ul class="list-unstyled d-flex gap-3 flex-column">
+            <li class="w-75 mx-5 d-flex align-items-center gap-3 pb-1">
+              <span class="text-light">HTML</span>
+              <div class="bg-primary" style="width: 80%">80%</div>
+            </li>
+            <li class="w-75 mx-5 d-flex align-items-center gap-3" >
+              <span class="text-light">CSS-3</span>
+              <div class="bg-primary" style="width: 80%">70%</div>
+            </li>
+            <li class="w-75 mx-5 d-flex align-items-center gap-3">
+              <span class="text-light">JavaScript</span>
+              <div class="bg-primary" style="width: 40%">40%</div>
+            </li>
+            <li class="w-75 mx-5 d-flex align-items-center gap-3">
+              <span class="text-light">Bootstrap-5</span>
+              <div class="bg-primary" style="width: 80%">80%</div>
+            </li>
+          </ul> -->
+          <!-- <div class="row justify-content-center">
+            <div class="col-7">
+              <span class="text-light">HTML-5</span>
+              <div class="progress w-75 mx-5">
+                <div class="progress-bar bg-primary" style="width: 80%;">80%</div>
+              </div>
+            </div>
+            <div class="col-7">
+              <span class="text-light">CSS-3</span>
+              <div class="progress w-75 mx-5">
+                <div class="progress-bar bg-primary" style="width: 70%;">70%</div>
+              </div>
+            </div>
+            <div class="col-7">
+              <span class="text-light">Bootstrap-5</span>
+              <div class="progress w-75 mx-5">
+                <div class="progress-bar bg-primary fw-bold fs-5" style="width: 80%;">80%</div>
+              </div>
+            </div>
+            <div class="col-7 ">
+              <span class="text-light">JavaScript</span>
+              <div class="progress w-75 mx-5">
+                <div class="progress-bar bg-primary fw-medium fs-6" style="width: 40%;">40%</div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
+    </section>
+
+    <footer class="bg-black py-5 footer">
+      <div class="container pt-3" id="footer">
+        <div class="row">
+          <div class="col-md-4 mb-4 mb-md-0 text-start">
+            <div class="p-3">
+              <h5 class="text-white fw-semibold Kamei">
+                <span class="fs-1 jk">JK</span>amei
+              </h5>
+              <p class="text-light">
+                Passionate about technology and innovation, currently gaining
+                hands-on experience as an intern at Liamtra. Eager to explore
+                new challenges in web development and software engineering,
+                continuously improving my skills to create impactful digital
+                solutions.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4 mb-md-0">
+            <div
+              class="p-3 ps-md-5 d-flex flex-column align-items-start text-start align-items-md-start text-md-start"
+            >
+              <h5 class="fw-bold Contact">Contact Info</h5>
+              <ul class="list-unstyled mt-3">
+                <li>
+                  <a href="#" class="fs-6 text-light text-decoration-none">
+                    <i class="fa-solid fa-phone text-primary"></i>
+                    +91-7005140593
+                  </a>
+                </li>
+                <li class="my-2">
+                  <a
+                    href="mailto:jianlu.liangtuang@gmail.com"
+                    class="fs-6 text-light text-decoration-none"
+                  >
+                    <i class="fa-solid fa-envelope text-warning"></i>
+                    jianlu.liangtuang@gmail.com
+                  </a>
+                </li>
+                <li>
+                  <span class="fs-6 text-light">
+                    <i class="fa-solid fa-location-dot text-primary"></i> Vasant
+                    Kunj, South Delhi
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-start">
+            <div
+              class="p-3 p-3 ps-md-5 d-flex flex-column align-items-start text-start align-items-md-start text-md-start"
+            >
+              <h5 class="Social fw-bold">My Social Accounts</h5>
+              <ul
+                class="list-unstyled gap-3 d-flex flex-wrap justify-content-center mt-4"
+              >
+                <li class="icon-bg">
+                  <a href="/" class="text-white-50 text-decoration-none Social"
+                    ><i class="fa-brands fa-linkedin-in icon"></i
+                  ></a>
+                </li>
+                <li class="icon-bg">
+                  <a href="/" class="text-white-50 text-decoration-none Social"
+                    ><i class="fa-brands fa-github icon"></i
+                  ></a>
+                </li>
+                <li class="icon-bg">
+                  <a href="/" class="text-white-50 text-decoration-none Social"
+                    ><i class="fa-brands fa-instagram icon"></i
+                  ></a>
+                </li>
+                <!-- <li>
+                <a href="/" class="text-white-50 text-decoration-none Social"
+                  >Skills</a
+                >
+              </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <hr class="text-primary" />
+
+        <div class="p-3 text-center">
+          <p class="text-white-50">
+            © 2025. Made by <span class="text-primary">Jianlu Kamei</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+requirement in portfolio project.
+fontfamily:[rubik and epilogue]
+color: blue
+Header part
+theme:dark theme /bg-black
+menu list[home,aboutme,project,contact] 
+resume button/add resume file
+add scrollspy
+about me section
+project section
+contact section
+footer section
+
